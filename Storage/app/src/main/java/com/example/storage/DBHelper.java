@@ -14,12 +14,12 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table Aravindh(id varchar,name varchar,email varchar)");
+        db.execSQL("create table Student(id varchar,name varchar,email varchar,regno varchar,slot varchar)");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("drop table Aravindh");
+        db.execSQL("drop table Student");
         onCreate(db);
     }
 }
