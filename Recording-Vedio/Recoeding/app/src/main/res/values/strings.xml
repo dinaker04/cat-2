@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">media2</string>
+    <string name="record">Record</string>
+    <string name="playback">Playback</string>
+    <string name="media_controller_2">Media Controller-2</string>
+    <string name="exit">Exit</string>
+</resources>

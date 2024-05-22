@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_exit" type="id" />
+    <item name="button_playback" type="id" />
+    <item name="button_record" type="id" />
+    <item name="videoView" type="id" />
+    <item name="mediaController" type="id" />
+    <item name="surfaceView" type="id" />
+</resources>

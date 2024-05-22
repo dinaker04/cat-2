@@ -1,0 +1,10 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- TranslateAnimation for moving from left to right -->
+    <translate
+        android:fromXDelta="-100%p"
+    android:toXDelta="100%p"
+    android:duration="1000" />
+
+    <!-- RotateAnimation for rotating while moving -->
+
+</set>
